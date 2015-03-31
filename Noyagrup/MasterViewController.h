@@ -10,8 +10,22 @@
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController {
+    NSMutableData *data;
+    NSArray *jsonArray;
+    int *clickedRow;
+}
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong,nonatomic) NSArray *titles;
+@property (strong,nonatomic) NSArray *fakeArray;
+@property (strong,nonatomic) NSArray *thumbs;
+@property (strong,nonatomic) NSArray *stock;
+@property (strong,nonatomic) NSArray *prices;
+@property (strong,nonatomic) NSMutableArray *masterCounting;
+
+- (IBAction)refresh:(id)sender;
+
+
+
 
 @end

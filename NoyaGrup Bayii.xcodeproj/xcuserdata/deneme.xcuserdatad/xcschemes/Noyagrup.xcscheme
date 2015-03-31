@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7DBA7045199E7AB5003527C8"
-               BuildableName = "Noyagrup.app"
-               BlueprintName = "Noyagrup"
-               ReferencedContainer = "container:Noyagrup.xcodeproj">
+               BuildableName = "NoyaGrup.app"
+               BlueprintName = "NoyaGrup.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:NoyaGrup.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7DBA706C199E7AB5003527C8"
-               BuildableName = "NoyagrupTests.xctest"
-               BlueprintName = "NoyagrupTests"
-               ReferencedContainer = "container:Noyagrup.xcodeproj">
+               BuildableName = "NoyaGrup.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "NoyaGrup.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:NoyaGrup.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DBA7045199E7AB5003527C8"
-            BuildableName = "Noyagrup.app"
-            BlueprintName = "Noyagrup"
-            ReferencedContainer = "container:Noyagrup.xcodeproj">
+            BuildableName = "NoyaGrup.app"
+            BlueprintName = "NoyaGrup.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:NoyaGrup.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DBA7045199E7AB5003527C8"
-            BuildableName = "Noyagrup.app"
-            BlueprintName = "Noyagrup"
-            ReferencedContainer = "container:Noyagrup.xcodeproj">
+            BuildableName = "NoyaGrup.app"
+            BlueprintName = "NoyaGrup.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:NoyaGrup.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7DBA7045199E7AB5003527C8"
-            BuildableName = "Noyagrup.app"
-            BlueprintName = "Noyagrup"
-            ReferencedContainer = "container:Noyagrup.xcodeproj">
+            BuildableName = "NoyaGrup.app"
+            BlueprintName = "NoyaGrup.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:NoyaGrup.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
