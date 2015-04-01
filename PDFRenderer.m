@@ -29,7 +29,7 @@
     int rowHeight = 17;
     
     NSLog(@"FKDJSHFKLJHDSKJFHDSJKF %.2f -------- %.2f",detail.montajFiyat , detail.devreyeAlmaFiyat);
-    
+    //TEST v2
     
     [self setText];
     

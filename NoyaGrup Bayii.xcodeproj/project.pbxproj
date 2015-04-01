@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1265977D1A6A974200336817 /* f12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1265977C1A6A974200336817 /* f12.png */; };
+		12E00FF31ACBE2D600DED31A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E00FF21ACBE2D600DED31A /* Crashlytics.framework */; };
 		7D196C2419B99242007CA5C6 /* noyagrup2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D196C2219B99242007CA5C6 /* noyagrup2.png */; };
 		7D196C2519B99242007CA5C6 /* noyagrupnav.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D196C2319B99242007CA5C6 /* noyagrupnav.png */; };
 		7D196C2819B9DC74007CA5C6 /* StokParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D196C2719B9DC74007CA5C6 /* StokParser.m */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		1265977C1A6A974200336817 /* f12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f12.png; sourceTree = "<group>"; };
+		12E00FF21ACBE2D600DED31A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		7D196C2219B99242007CA5C6 /* noyagrup2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noyagrup2.png; sourceTree = "<group>"; };
 		7D196C2319B99242007CA5C6 /* noyagrupnav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noyagrupnav.png; sourceTree = "<group>"; };
 		7D196C2619B9DC74007CA5C6 /* StokParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StokParser.h; sourceTree = "<group>"; };
@@ -102,7 +104,6 @@
 		7DBA7061199E7AB5003527C8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		7DBA7062199E7AB5003527C8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		7DBA7067199E7AB5003527C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7DBA706E199E7AB5003527C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7DBA7076199E7AB5003527C8 /* NoyaGrup.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoyaGrup.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		7DBA7078199E7AB5003527C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DBA707A199E7AB5003527C8 /* NoyagrupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoyagrupTests.m; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				7DE1CA8819A4CD2100CBF66C /* CoreText.framework in Frameworks */,
 				7DBA704C199E7AB5003527C8 /* CoreGraphics.framework in Frameworks */,
 				7DBA704E199E7AB5003527C8 /* UIKit.framework in Frameworks */,
+				12E00FF31ACBE2D600DED31A /* Crashlytics.framework in Frameworks */,
 				7DBA704A199E7AB5003527C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,10 +189,12 @@
 		7DBA7048199E7AB5003527C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12E00FF21ACBE2D600DED31A /* Crashlytics.framework */,
+				7D319CA719B721C30007210B /* MessageUI.framework */,
+				7DE1CA8719A4CD2100CBF66C /* CoreText.framework */,
 				7DBA7049199E7AB5003527C8 /* Foundation.framework */,
 				7DBA704B199E7AB5003527C8 /* CoreGraphics.framework */,
 				7DBA704D199E7AB5003527C8 /* UIKit.framework */,
-				7DBA706E199E7AB5003527C8 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,8 +211,6 @@
 				7D5D355419CB0C80008028A5 /* Main_iPad.storyboard */,
 				7D5D355619CB0C80008028A5 /* Main_iPhone.storyboard */,
 				7DE1CA9119A53DED00CBF66C /* PDFViewController.m */,
-				7D319CA719B721C30007210B /* MessageUI.framework */,
-				7DE1CA8719A4CD2100CBF66C /* CoreText.framework */,
 				7D3324D619A12038008A09E3 /* ViewController.h */,
 				7D3324D719A12038008A09E3 /* ViewController.m */,
 				7DBA7061199E7AB5003527C8 /* MasterViewController.h */,
@@ -301,6 +303,7 @@
 				7DBA7042199E7AB5003527C8 /* Sources */,
 				7DBA7043199E7AB5003527C8 /* Frameworks */,
 				7DBA7044199E7AB5003527C8 /* Resources */,
+				12E00FF11ACBE29700DED31A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -397,6 +400,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12E00FF11ACBE29700DED31A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 46c4f5bd06336be787aaa2c4ca00f4c274de7ca6 f117db6a46463ec96a4b23f901c06f5c5a25d542d4a934dee3b6861e77507dfa";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DBA7042199E7AB5003527C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -469,7 +488,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -492,6 +512,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noyagrup/NoyaGrup Bayii.temp_caseinsensitive_rename-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -521,7 +545,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -560,7 +585,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -583,6 +609,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noyagrup/NoyaGrup Bayii.temp_caseinsensitive_rename-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -602,6 +632,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ümit Yasar (V8C6CEGS76)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noyagrup/NoyaGrup Bayii.temp_caseinsensitive_rename-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
