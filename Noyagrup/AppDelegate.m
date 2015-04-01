@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Crashlytics/Crashlytics.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 @implementation AppDelegate
@@ -23,7 +24,7 @@
        // splitViewController.delegate = (id)navigationController.topViewController;
     //}
    
-    
+    [Crashlytics startWithAPIKey:@"46c4f5bd06336be787aaa2c4ca00f4c274de7ca6"];
     
    
 

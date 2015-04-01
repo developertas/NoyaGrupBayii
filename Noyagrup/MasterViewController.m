@@ -145,18 +145,7 @@
 
  
     
-    NSURL *urlXML = [NSURL URLWithString:@"http://fibarostok.obilir.net/fibar.xml"];
-    NSURLRequest *xmlRequest = [NSURLRequest requestWithURL:urlXML];
-    NSURLResponse *xmlResponse ;
-    NSError *xmlRequestError ;
-    
-    
-    NSData *data=[NSURLConnection sendSynchronousRequest:xmlRequest returningResponse:&xmlResponse error:&xmlRequestError];
-    if (xmlRequestError)
-        NSLog(@"XML DOSYASI ALINAMADI");
-    StokParser *stokParser = [[StokParser alloc]init];
-    NSLog(@"%@",data);
-    [stokParser parseXMLFile: data];
+
     
  
     NSURL *url = [NSURL URLWithString:@"http://rate-exchange.appspot.com/currency?from=EUR&to=TRY"];
